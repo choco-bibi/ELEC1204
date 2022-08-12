@@ -153,7 +153,7 @@ int main(){
 	int grid[BOX][BOX] {0};
 
 	cout << "The Sudoku Problem:" << endl;
-//	fileortype(); could possibly ask for the option to insert the values of the
+//	fileortype(); could possibly ask for the option to insert the values of the problem
 	importfile(grid);
 	// checker(grid); we could possibly write some code to check if the grid is valid or has any repititions right from the start
 	print(grid);
